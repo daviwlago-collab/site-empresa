@@ -1,0 +1,294 @@
+*{
+
+    margin:0;
+
+    padding:0;
+
+    box-sizing:border-box;
+
+}
+
+body{
+
+    font-family: Arial, sans-serif;
+
+    background:#f4f4f4;
+
+    color:#222;
+
+}
+
+header{
+
+    background:#000;
+
+    border-bottom:5px solid #f5c400;
+
+}
+
+.topo{
+
+    width:1200px;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 0;
+
+}
+
+.logo{
+
+    color:#f5c400;
+
+    font-size:32px;
+
+    font-weight:bold;
+
+}
+
+.logo span{
+
+    color:white;
+
+}
+
+nav ul{
+
+    list-style:none;
+
+    display:flex;
+
+}
+
+nav ul li{
+
+    margin-left:20px;
+
+}
+
+nav ul li a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+nav ul li a:hover{
+
+    color:#f5c400;
+
+}
+
+.banner{
+
+    background:linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('EPTG.jpg') center/cover;
+
+    height:350px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+}
+
+.banner h1{
+
+    color:white;
+
+    font-size:50px;
+
+    background:rgba(0,0,0,0.6);
+
+    padding:20px;
+
+    border-radius:10px;
+
+    border:2px solid #f5c400;
+
+}
+
+.conteudo{
+
+    width:1200px;
+
+    margin:auto;
+
+    padding:40px 5%;
+
+    background:white;
+
+}
+
+.conteudo h2{
+
+    color:#000;
+
+    border-left:8px solid #f5c400;
+
+    padding-left:15px;
+
+    margin-bottom:20px;
+
+}
+
+.conteudo p{
+
+    line-height:1.8;
+
+    margin-bottom:15px;
+
+    text-align:justify;
+
+}
+
+.cards{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    margin-top:25px;
+
+}
+
+.card{
+
+    flex:1;
+
+    min-width:250px;
+
+    background:#111;
+
+    color:white;
+
+    padding:25px;
+
+    border-radius:10px;
+
+    border-bottom:5px solid #f5c400;
+
+}
+
+.card h3{
+
+    color:#f5c400;
+
+    margin-bottom:10px;
+
+}
+
+ul{
+
+    margin-left:25px;
+
+    line-height:2;
+
+}
+
+.galeria-paineis{
+
+    display:grid;
+
+    grid-template-columns:repeat(3, 1fr);
+
+    gap:25px;
+
+    margin-top:30px;
+
+}
+
+.painel{
+
+    background:#111;
+
+    color:white;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+    border-bottom:5px solid #f5c400;
+
+}
+
+.painel img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.painel h3{
+
+    color:#f5c400;
+
+    padding:15px;
+
+}
+
+.painel p{
+
+    padding:0 15px 10px 15px;
+
+    text-align:left;
+
+    line-height:1.5;
+
+}
+
+footer{
+
+    background:#000;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    margin-top:40px;
+
+    border-top:5px solid #f5c400;
+    .btn-orcamento{
+
+    display:inline-block;
+
+    background:#25D366;
+
+    color:white;
+
+    padding:15px 30px;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+    font-size:18px;
+
+}
+
+.btn-orcamento:hover{
+
+    background:#1ea952;
+
+}
